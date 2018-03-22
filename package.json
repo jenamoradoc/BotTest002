@@ -1,0 +1,22 @@
+{
+  "name": "clima-bot",
+  "version": "1.0.0",
+  "description": "nodejs apiai chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "apiai"
+  ],
+  "author": "David HND",
+  "license": "ISC",
+  "dependencies": {
+    "api-ai-recognizer": "^1.1.1",
+    "apiai": "^4.0.3",
+    "botbuilder": "^3.14.0",
+    "request": "^2.85.0",
+    "restify": "^7.0.0"
+  }
+}
