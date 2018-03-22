@@ -68,3 +68,9 @@ intents.matches('smalltalk.greetings',function(session, args){
 intents.onDefault(function(session){
     session.send("Sorry...can you please rephrase?");
 });
+
+//ping
+server.get('/ping', function (req, res, next) {
+   res.send('pong' );
+   next();
+});
